@@ -1,0 +1,2521 @@
+{
+  "items": {
+    "sofa_02": {
+      "name": "Диван",
+      "category": "Мягкая мебель",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/sofa_02",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 180.7,
+      "depthCm": 81.8,
+      "heightCm": 70.9,
+      "catalogDimensionsCm": [
+        180.7,
+        81.8,
+        70.9
+      ],
+      "srcBytes": 427171,
+      "glbBytes": 218140,
+      "minPsnrDb": 43.2
+    },
+    "Sofa_01": {
+      "name": "Малый диван",
+      "category": "Мягкая мебель",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/Sofa_01",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 157.1,
+      "depthCm": 65.8,
+      "heightCm": 79.7,
+      "catalogDimensionsCm": [
+        157.1,
+        65.8,
+        79.7
+      ],
+      "srcBytes": 517935,
+      "glbBytes": 264924,
+      "minPsnrDb": 42
+    },
+    "ArmChair_01": {
+      "name": "Кресло",
+      "category": "Мягкая мебель",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/ArmChair_01",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 84.8,
+      "depthCm": 76.6,
+      "heightCm": 106.5,
+      "catalogDimensionsCm": [
+        84.8,
+        76.6,
+        106.5
+      ],
+      "srcBytes": 769144,
+      "glbBytes": 535792,
+      "minPsnrDb": 40.8
+    },
+    "Ottoman_01": {
+      "name": "Пуф",
+      "category": "Мягкая мебель",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/Ottoman_01",
+      "authors": [
+        "Caspian Fortune"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 88.5,
+      "depthCm": 62.1,
+      "heightCm": 62.4,
+      "catalogDimensionsCm": [
+        88.5,
+        62.1,
+        62.4
+      ],
+      "srcBytes": 652112,
+      "glbBytes": 421380,
+      "minPsnrDb": 41.3
+    },
+    "modern_coffee_table_01": {
+      "name": "Журнальный столик",
+      "category": "Столы",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/modern_coffee_table_01",
+      "authors": [
+        "Amin"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 120.2,
+      "heightCm": 39,
+      "catalogDimensionsCm": [
+        120.2,
+        60,
+        39
+      ],
+      "srcBytes": 1331297,
+      "glbBytes": 241928,
+      "minPsnrDb": 41.1
+    },
+    "side_table_01": {
+      "name": "Приставной столик",
+      "category": "Столы",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/side_table_01",
+      "authors": [
+        "James Ray Cock"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 55,
+      "depthCm": 45,
+      "heightCm": 55.1,
+      "catalogDimensionsCm": [
+        55,
+        45,
+        55.1
+      ],
+      "srcBytes": 505268,
+      "glbBytes": 238592,
+      "minPsnrDb": 99
+    },
+    "modern_wooden_cabinet": {
+      "name": "Тумба",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/modern_wooden_cabinet",
+      "authors": [
+        "Patrik Pangerl"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 244,
+      "depthCm": 52,
+      "heightCm": 68,
+      "catalogDimensionsCm": [
+        244,
+        52,
+        68
+      ],
+      "srcBytes": 2855522,
+      "glbBytes": 589760,
+      "minPsnrDb": 38.7
+    },
+    "Shelf_01": {
+      "name": "Стеллаж",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/Shelf_01",
+      "authors": [
+        "Gabriel Radić"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 100.3,
+      "depthCm": 25.7,
+      "heightCm": 208,
+      "catalogDimensionsCm": [
+        100.3,
+        25.7,
+        208
+      ],
+      "srcBytes": 605448,
+      "glbBytes": 423904,
+      "minPsnrDb": 41.5
+    },
+    "painted_wooden_nightstand": {
+      "name": "Тумбочка",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/painted_wooden_nightstand",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 50.5,
+      "depthCm": 50.9,
+      "heightCm": 61.6,
+      "catalogDimensionsCm": [
+        50.5,
+        50.9,
+        61.6
+      ],
+      "srcBytes": 2151507,
+      "glbBytes": 394868,
+      "minPsnrDb": 39.5
+    },
+    "ClassicNightstand_01": {
+      "name": "Тумбочка классическая",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/ClassicNightstand_01",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 56.8,
+      "depthCm": 42.4,
+      "heightCm": 70,
+      "catalogDimensionsCm": [
+        56.8,
+        42.4,
+        70
+      ],
+      "srcBytes": 444940,
+      "glbBytes": 211864,
+      "minPsnrDb": 42.6
+    },
+    "vintage_cabinet_01": {
+      "name": "Шкаф",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/vintage_cabinet_01",
+      "authors": [
+        "Rico Cilliers"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 202.2,
+      "depthCm": 67,
+      "heightCm": 223.5,
+      "catalogDimensionsCm": [
+        202.2,
+        67,
+        223.5
+      ],
+      "srcBytes": 2870976,
+      "glbBytes": 1011188,
+      "minPsnrDb": 41.5
+    },
+    "drawer_cabinet": {
+      "name": "Комод высокий",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/drawer_cabinet",
+      "authors": [
+        "Ulan Cabanilla"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 114.1,
+      "depthCm": 48.8,
+      "heightCm": 188.1,
+      "catalogDimensionsCm": [
+        114.1,
+        48.8,
+        188.1
+      ],
+      "srcBytes": 1143429,
+      "glbBytes": 424800,
+      "minPsnrDb": 41.2
+    },
+    "GothicCommode_01": {
+      "name": "Комод",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom",
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/GothicCommode_01",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 120.1,
+      "depthCm": 58.1,
+      "heightCm": 121.2,
+      "catalogDimensionsCm": [
+        120.1,
+        58.1,
+        121.2
+      ],
+      "srcBytes": 604161,
+      "glbBytes": 285508,
+      "minPsnrDb": 40.9
+    },
+    "dining_chair_02": {
+      "name": "Стул",
+      "category": "Стулья",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving",
+        "living"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/dining_chair_02",
+      "authors": [
+        "James Ray Cock"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 43.4,
+      "depthCm": 57.6,
+      "heightCm": 97.3,
+      "catalogDimensionsCm": [
+        43.4,
+        57.6,
+        97.3
+      ],
+      "srcBytes": 921075,
+      "glbBytes": 382036,
+      "minPsnrDb": 43.6
+    },
+    "painted_wooden_chair_01": {
+      "name": "Стул деревянный",
+      "category": "Стулья",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/painted_wooden_chair_01",
+      "authors": [
+        "Kuutti Siitonen"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 43.2,
+      "depthCm": 54,
+      "heightCm": 95.6,
+      "catalogDimensionsCm": [
+        43.2,
+        54,
+        95.6
+      ],
+      "srcBytes": 492550,
+      "glbBytes": 251988,
+      "minPsnrDb": 40.9
+    },
+    "bar_chair_round_01": {
+      "name": "Барный стул",
+      "category": "Стулья",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/bar_chair_round_01",
+      "authors": [
+        "Dairon Sanchez"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 48.3,
+      "depthCm": 48.6,
+      "heightCm": 75.1,
+      "catalogDimensionsCm": [
+        48.3,
+        48.6,
+        75.1
+      ],
+      "srcBytes": 2812333,
+      "glbBytes": 734664,
+      "minPsnrDb": 39.3
+    },
+    "wooden_table_02": {
+      "name": "Стол обеденный",
+      "category": "Столы",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/wooden_table_02",
+      "authors": [
+        "Serhii Khromov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 113.4,
+      "depthCm": 70.6,
+      "heightCm": 80,
+      "catalogDimensionsCm": [
+        113.4,
+        70.6,
+        80
+      ],
+      "srcBytes": 485316,
+      "glbBytes": 279320,
+      "minPsnrDb": 40.2
+    },
+    "round_wooden_table_02": {
+      "name": "Стол круглый",
+      "category": "Столы",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/round_wooden_table_02",
+      "authors": [
+        "Ulan Cabanilla"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 79.6,
+      "depthCm": 79.6,
+      "heightCm": 74.6,
+      "catalogDimensionsCm": [
+        79.6,
+        79.6,
+        74.6
+      ],
+      "srcBytes": 1921292,
+      "glbBytes": 310168,
+      "minPsnrDb": 40.9
+    },
+    "wooden_stool_01": {
+      "name": "Табурет",
+      "category": "Стулья",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving",
+        "bathroom",
+        "combinedBathroom",
+        "toilet",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/wooden_stool_01",
+      "authors": [
+        "Kuutti Siitonen"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 42.5,
+      "depthCm": 44.2,
+      "heightCm": 43.7,
+      "catalogDimensionsCm": [
+        42.5,
+        44.2,
+        43.7
+      ],
+      "srcBytes": 961720,
+      "glbBytes": 657488,
+      "minPsnrDb": 39.5
+    },
+    "folding_wooden_stool": {
+      "name": "Складной табурет",
+      "category": "Стулья",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving",
+        "bathroom",
+        "combinedBathroom",
+        "toilet"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/folding_wooden_stool",
+      "authors": [
+        "Ulan Cabanilla"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 52.8,
+      "depthCm": 54.7,
+      "heightCm": 44.2,
+      "catalogDimensionsCm": [
+        52.8,
+        54.7,
+        44.2
+      ],
+      "srcBytes": 2267932,
+      "glbBytes": 487612,
+      "minPsnrDb": 39.2
+    },
+    "ClassicConsole_01": {
+      "name": "Консоль",
+      "category": "Хранение",
+      "roomTypes": [
+        "hallway",
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/ClassicConsole_01",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 154.3,
+      "depthCm": 58.9,
+      "heightCm": 94.9,
+      "catalogDimensionsCm": [
+        154.3,
+        58.9,
+        94.9
+      ],
+      "srcBytes": 740693,
+      "glbBytes": 439092,
+      "minPsnrDb": 41.6
+    },
+    "painted_wooden_bench": {
+      "name": "Скамья",
+      "category": "Стулья",
+      "roomTypes": [
+        "hallway",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/painted_wooden_bench",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 116.5,
+      "depthCm": 49.7,
+      "heightCm": 88.9,
+      "catalogDimensionsCm": [
+        116.5,
+        49.7,
+        88.9
+      ],
+      "srcBytes": 1989639,
+      "glbBytes": 353644,
+      "minPsnrDb": 40
+    },
+    "painted_wooden_shelves": {
+      "name": "Этажерка",
+      "category": "Хранение",
+      "roomTypes": [
+        "hallway",
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/painted_wooden_shelves",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 51.1,
+      "depthCm": 36.7,
+      "heightCm": 112.5,
+      "catalogDimensionsCm": [
+        51.1,
+        36.7,
+        112.5
+      ],
+      "srcBytes": 2110690,
+      "glbBytes": 396760,
+      "minPsnrDb": 40.2
+    },
+    "painted_wooden_cabinet": {
+      "name": "Шкафчик",
+      "category": "Хранение",
+      "roomTypes": [
+        "hallway",
+        "kitchen",
+        "kitchenLiving",
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/painted_wooden_cabinet",
+      "authors": [
+        "Kirill Sannikov"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 119.5,
+      "depthCm": 61.7,
+      "heightCm": 118.2,
+      "catalogDimensionsCm": [
+        119.5,
+        61.7,
+        118.2
+      ],
+      "srcBytes": 1861779,
+      "glbBytes": 312152,
+      "minPsnrDb": 39.1
+    },
+    "wicker_basket_01": {
+      "name": "Корзина",
+      "category": "Декор",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom",
+        "toilet",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/wicker_basket_01",
+      "authors": [
+        "Kuutti Siitonen"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 38.3,
+      "depthCm": 29.5,
+      "heightCm": 11.7,
+      "catalogDimensionsCm": [
+        38.3,
+        29.5,
+        11.7
+      ],
+      "srcBytes": 2730151,
+      "glbBytes": 637152,
+      "minPsnrDb": 38.9
+    },
+    "potted_plant_04": {
+      "name": "Растение",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "bathroom",
+        "combinedBathroom",
+        "toilet",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "polyhaven",
+      "url": "https://polyhaven.com/a/potted_plant_04",
+      "authors": [
+        "James Ray Cock"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 16.8,
+      "depthCm": 18.5,
+      "heightCm": 26.7,
+      "catalogDimensionsCm": [
+        17,
+        18.6,
+        26.8
+      ],
+      "srcBytes": 2122625,
+      "glbBytes": 509948,
+      "minPsnrDb": 39.4
+    },
+    "kenney_bathtub": {
+      "name": "Ванна",
+      "category": "Сантехника",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 170,
+      "depthCm": 80,
+      "heightCm": 60,
+      "scale": [
+        1.429,
+        1.429,
+        1.429
+      ],
+      "sourceFile": "bathtub.glb",
+      "rawSizeCm": [
+        119,
+        42,
+        56
+      ],
+      "srcBytes": 35500,
+      "glbBytes": 11772,
+      "minPsnrDb": 99
+    },
+    "kenney_bathroomSink": {
+      "name": "Раковина",
+      "category": "Сантехника",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom",
+        "toilet"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 51.6,
+      "depthCm": 44,
+      "heightCm": 85,
+      "scale": [
+        1.518,
+        1.518,
+        1.518
+      ],
+      "sourceFile": "bathroomSink.glb",
+      "rawSizeCm": [
+        34,
+        56,
+        29
+      ],
+      "srcBytes": 22536,
+      "glbBytes": 7944,
+      "minPsnrDb": 99
+    },
+    "kenney_toilet": {
+      "name": "Унитаз",
+      "category": "Сантехника",
+      "roomTypes": [
+        "toilet",
+        "combinedBathroom",
+        "bathroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 45.8,
+      "depthCm": 70,
+      "heightCm": 66.2,
+      "scale": [
+        1.467,
+        1.467,
+        1.467
+      ],
+      "sourceFile": "toilet.glb",
+      "rawSizeCm": [
+        31.3,
+        45.1,
+        47.7
+      ],
+      "srcBytes": 18112,
+      "glbBytes": 8896,
+      "minPsnrDb": 99
+    },
+    "kenney_shower": {
+      "name": "Душевая кабина",
+      "category": "Сантехника",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 102.7,
+      "depthCm": 106.4,
+      "heightCm": 200,
+      "scale": [
+        1.828,
+        1.828,
+        1.828
+      ],
+      "sourceFile": "shower.glb",
+      "rawSizeCm": [
+        56.2,
+        109.4,
+        58.2
+      ],
+      "srcBytes": 52020,
+      "glbBytes": 15808,
+      "minPsnrDb": 99
+    },
+    "kenney_washer": {
+      "name": "Стиральная машина",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom",
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 60,
+      "heightCm": 85,
+      "scale": [
+        1.538,
+        1.809,
+        1.538
+      ],
+      "sourceFile": "washer.glb",
+      "rawSizeCm": [
+        39,
+        47,
+        39
+      ],
+      "srcBytes": 48104,
+      "glbBytes": 17704,
+      "minPsnrDb": 99
+    },
+    "kenney_trashcan": {
+      "name": "Мусорное ведро",
+      "category": "Декор",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom",
+        "toilet",
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 21.8,
+      "depthCm": 24.6,
+      "heightCm": 45,
+      "scale": [
+        1.052,
+        1.052,
+        1.052
+      ],
+      "sourceFile": "trashcan.glb",
+      "rawSizeCm": [
+        20.8,
+        42.8,
+        23.4
+      ],
+      "srcBytes": 6452,
+      "glbBytes": 4136,
+      "minPsnrDb": 99
+    },
+    "kenney_bedDouble": {
+      "name": "Кровать двуспальная",
+      "category": "Кровати",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 170,
+      "depthCm": 200,
+      "heightCm": 66.7,
+      "scale": [
+        1.778,
+        1.778,
+        1.778
+      ],
+      "sourceFile": "bedDouble.glb",
+      "rawSizeCm": [
+        95.6,
+        37.5,
+        112.5
+      ],
+      "srcBytes": 23368,
+      "glbBytes": 10540,
+      "minPsnrDb": 99
+    },
+    "kenney_bedSingle": {
+      "name": "Кровать односпальная",
+      "category": "Кровати",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 101.5,
+      "depthCm": 200,
+      "heightCm": 66.7,
+      "scale": [
+        1.778,
+        1.778,
+        1.778
+      ],
+      "sourceFile": "bedSingle.glb",
+      "rawSizeCm": [
+        57.1,
+        37.5,
+        112.5
+      ],
+      "srcBytes": 18636,
+      "glbBytes": 10300,
+      "minPsnrDb": 99
+    },
+    "kenney_cabinetBed": {
+      "name": "Прикроватная тумба",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 57,
+      "depthCm": 46.1,
+      "heightCm": 50,
+      "scale": [
+        2.144,
+        2.144,
+        2.144
+      ],
+      "sourceFile": "cabinetBed.glb",
+      "rawSizeCm": [
+        26.6,
+        23.3,
+        21.5
+      ],
+      "srcBytes": 7496,
+      "glbBytes": 5168,
+      "minPsnrDb": 99
+    },
+    "kenney_bookcaseClosedDoors": {
+      "name": "Шкаф платяной",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 94.1,
+      "depthCm": 58.8,
+      "heightCm": 200,
+      "scale": [
+        2.353,
+        2.353,
+        2.353
+      ],
+      "sourceFile": "bookcaseClosedDoors.glb",
+      "rawSizeCm": [
+        40,
+        85,
+        25
+      ],
+      "srcBytes": 22644,
+      "glbBytes": 9476,
+      "minPsnrDb": 99
+    },
+    "kenney_kitchenFridge": {
+      "name": "Холодильник",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 65,
+      "heightCm": 170,
+      "scale": [
+        1.395,
+        1.848,
+        2.227
+      ],
+      "sourceFile": "kitchenFridge.glb",
+      "rawSizeCm": [
+        43,
+        92,
+        29.2
+      ],
+      "srcBytes": 20116,
+      "glbBytes": 11056,
+      "minPsnrDb": 99
+    },
+    "kenney_kitchenStove": {
+      "name": "Плита",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 60,
+      "heightCm": 90,
+      "scale": [
+        1.395,
+        2,
+        1.333
+      ],
+      "sourceFile": "kitchenStove.glb",
+      "rawSizeCm": [
+        43,
+        45,
+        45
+      ],
+      "srcBytes": 54324,
+      "glbBytes": 16760,
+      "minPsnrDb": 99
+    },
+    "kenney_kitchenSink": {
+      "name": "Кухонная мойка",
+      "category": "Кухонные модули",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 60,
+      "heightCm": 90,
+      "scale": [
+        1.395,
+        1.837,
+        1.333
+      ],
+      "sourceFile": "kitchenSink.glb",
+      "rawSizeCm": [
+        43,
+        49,
+        45
+      ],
+      "srcBytes": 23480,
+      "glbBytes": 13128,
+      "minPsnrDb": 99
+    },
+    "kenney_kitchenCabinet": {
+      "name": "Кухонный модуль",
+      "category": "Кухонные модули",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 60,
+      "heightCm": 90,
+      "scale": [
+        1.395,
+        2,
+        1.333
+      ],
+      "sourceFile": "kitchenCabinet.glb",
+      "rawSizeCm": [
+        43,
+        45,
+        45
+      ],
+      "srcBytes": 10444,
+      "glbBytes": 7592,
+      "minPsnrDb": 99
+    },
+    "kenney_coatRackStanding": {
+      "name": "Вешалка напольная",
+      "category": "Хранение",
+      "roomTypes": [
+        "hallway",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60.2,
+      "depthCm": 60.2,
+      "heightCm": 170,
+      "scale": [
+        2.208,
+        2.208,
+        2.208
+      ],
+      "sourceFile": "coatRackStanding.glb",
+      "rawSizeCm": [
+        27.3,
+        77,
+        27.3
+      ],
+      "srcBytes": 13288,
+      "glbBytes": 4152,
+      "minPsnrDb": 99
+    },
+    "kenney_lampRoundFloor": {
+      "name": "Торшер",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 28.3,
+      "depthCm": 32.7,
+      "heightCm": 160,
+      "scale": [
+        1.86,
+        1.86,
+        1.86
+      ],
+      "sourceFile": "lampRoundFloor.glb",
+      "rawSizeCm": [
+        15.2,
+        86,
+        17.6
+      ],
+      "srcBytes": 6600,
+      "glbBytes": 3836,
+      "minPsnrDb": 99
+    },
+    "kenney_cabinetTelevision": {
+      "name": "ТВ-тумба",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 140,
+      "depthCm": 43.7,
+      "heightCm": 54.2,
+      "scale": [
+        1.75,
+        1.75,
+        1.75
+      ],
+      "sourceFile": "cabinetTelevision.glb",
+      "rawSizeCm": [
+        80,
+        31,
+        25
+      ],
+      "srcBytes": 10524,
+      "glbBytes": 3420,
+      "minPsnrDb": 99
+    },
+    "fm_floor_lamp_arc": {
+      "name": "Торшер дуговой",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/lighting/floor-lamp/a-modern-arc-floor-lamp-featuring-a-4cdk85/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 46.7,
+      "depthCm": 148.2,
+      "heightCm": 180,
+      "scale": [
+        1.792,
+        1.792,
+        1.792
+      ],
+      "sourceFile": "fm_floor_lamp_arc/source.glb",
+      "rawSizeCm": [
+        26.1,
+        100.4,
+        82.7
+      ],
+      "srcBytes": 17884800,
+      "glbBytes": 539368,
+      "minPsnrDb": 38.9,
+      "trianglesBefore": 294500,
+      "trianglesAfter": 19996
+    },
+    "fm_table_lamp_wood": {
+      "name": "Настольная лампа деревянная",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "surface",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/lighting/table-lamp/a-modern-table-lamp-featuring-a-solid-xm42tw/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 40.4,
+      "depthCm": 40.4,
+      "heightCm": 50,
+      "scale": [
+        0.498,
+        0.498,
+        0.498
+      ],
+      "sourceFile": "fm_table_lamp_wood/source.glb",
+      "rawSizeCm": [
+        81.1,
+        100.3,
+        81.2
+      ],
+      "srcBytes": 13040372,
+      "glbBytes": 435256,
+      "minPsnrDb": 40.6,
+      "trianglesBefore": 276606,
+      "trianglesAfter": 20000
+    },
+    "fm_desk_oak": {
+      "name": "Письменный стол дубовый",
+      "category": "Столы",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/tables/desk/a-contemporary-desk-crafted-from-light-oak-ynjo42/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 120,
+      "depthCm": 57,
+      "heightCm": 78.8,
+      "scale": [
+        1.196,
+        1.196,
+        1.196
+      ],
+      "sourceFile": "fm_desk_oak/source.glb",
+      "rawSizeCm": [
+        100.3,
+        65.9,
+        47.7
+      ],
+      "srcBytes": 10966976,
+      "glbBytes": 297812,
+      "minPsnrDb": 45.8,
+      "trianglesBefore": 291038,
+      "trianglesAfter": 20000
+    },
+    "fm_floor_lamp_pleated": {
+      "name": "Торшер с абажуром",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/lighting/floor-lamp/a-tall-floor-lamp-featuring-a-tapered-v2gqrf/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 40.7,
+      "depthCm": 40.8,
+      "heightCm": 159.9,
+      "scale": [
+        1.594,
+        1.594,
+        1.594
+      ],
+      "sourceFile": "fm_floor_lamp_pleated/source.glb",
+      "rawSizeCm": [
+        25.5,
+        100.4,
+        25.6
+      ],
+      "srcBytes": 15085320,
+      "glbBytes": 473168,
+      "minPsnrDb": 41.1,
+      "trianglesBefore": 298304,
+      "trianglesAfter": 20000
+    },
+    "fm_tv_stand_light": {
+      "name": "ТВ-тумба светлая",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/storage/tv-stand/a-light-wood-midcentury-modern-style-tv-4zqouh/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 150,
+      "depthCm": 41.3,
+      "heightCm": 43.6,
+      "scale": [
+        1.494,
+        1.494,
+        1.494
+      ],
+      "sourceFile": "fm_tv_stand_light/source.glb",
+      "rawSizeCm": [
+        100.4,
+        29.2,
+        27.7
+      ],
+      "srcBytes": 11435516,
+      "glbBytes": 300888,
+      "minPsnrDb": 45,
+      "trianglesBefore": 291503,
+      "trianglesAfter": 20000
+    },
+    "fm_tv_stand_walnut": {
+      "name": "ТВ-тумба ореховая",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/storage/tv-stand/a-long-low-wooden-media-console-featuring-5j7t4f/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 180,
+      "depthCm": 36,
+      "heightCm": 38.6,
+      "scale": [
+        1.794,
+        1.794,
+        1.794
+      ],
+      "sourceFile": "fm_tv_stand_walnut/source.glb",
+      "rawSizeCm": [
+        100.4,
+        21.6,
+        20.1
+      ],
+      "srcBytes": 13581908,
+      "glbBytes": 308812,
+      "minPsnrDb": 43.8,
+      "trianglesBefore": 298146,
+      "trianglesAfter": 20000
+    },
+    "fm_bed_tufted": {
+      "name": "Кровать мягкая",
+      "category": "Кровати",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/beds/bed/a-modern-upholstered-platform-bed-featuring-a-84flyv/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 187.6,
+      "depthCm": 214.7,
+      "heightCm": 103.5,
+      "scale": [
+        2.142,
+        2.142,
+        2.142
+      ],
+      "sourceFile": "fm_bed_tufted/source.glb",
+      "rawSizeCm": [
+        87.6,
+        48.4,
+        100.4
+      ],
+      "srcBytes": 14333132,
+      "glbBytes": 575944,
+      "minPsnrDb": 41.1,
+      "trianglesBefore": 296264,
+      "trianglesAfter": 24756
+    },
+    "fm_bed_lowprofile": {
+      "name": "Кровать низкая",
+      "category": "Кровати",
+      "roomTypes": [
+        "bedroom"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/beds/bed/a-lowprofile-contemporary-platform-bed-featuring-a-k8zcy9/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 173.5,
+      "depthCm": 209.4,
+      "heightCm": 66.7,
+      "scale": [
+        2.096,
+        2.096,
+        2.096
+      ],
+      "sourceFile": "fm_bed_lowprofile/source.glb",
+      "rawSizeCm": [
+        83.1,
+        31.9,
+        100.2
+      ],
+      "srcBytes": 23211348,
+      "glbBytes": 1000128,
+      "minPsnrDb": 38.9,
+      "trianglesBefore": 285369,
+      "trianglesAfter": 41713
+    },
+    "fm_wardrobe_wood": {
+      "name": "Шкаф платяной деревянный",
+      "category": "Хранение",
+      "roomTypes": [
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/storage/wardrobe/a-tall-rectangular-freestanding-wardrobe-cabinet-featuring-nzutif/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 99.9,
+      "depthCm": 51.1,
+      "heightCm": 200,
+      "scale": [
+        1.993,
+        1.993,
+        1.993
+      ],
+      "sourceFile": "fm_wardrobe_wood/source.glb",
+      "rawSizeCm": [
+        50.1,
+        100.3,
+        25.6
+      ],
+      "srcBytes": 9557560,
+      "glbBytes": 193300,
+      "minPsnrDb": 48.8,
+      "trianglesBefore": 284213,
+      "trianglesAfter": 19998
+    },
+    "kenney_dryer": {
+      "name": "Сушильная машина",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom",
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 60,
+      "heightCm": 85,
+      "scale": [
+        1.538,
+        1.809,
+        1.579
+      ],
+      "sourceFile": "dryer.glb",
+      "rawSizeCm": [
+        39,
+        47,
+        38
+      ],
+      "srcBytes": 17760,
+      "glbBytes": 8384,
+      "minPsnrDb": 99
+    },
+    "kenney_washerDryerStacked": {
+      "name": "Стиральная и сушильная машины (колонна)",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 60,
+      "depthCm": 60,
+      "heightCm": 185,
+      "scale": [
+        1.538,
+        1.968,
+        1.538
+      ],
+      "sourceFile": "washerDryerStacked.glb",
+      "rawSizeCm": [
+        39,
+        94,
+        39
+      ],
+      "srcBytes": 64060,
+      "glbBytes": 21952,
+      "minPsnrDb": 99
+    },
+    "kenney_televisionModern": {
+      "name": "Телевизор современный",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 100,
+      "depthCm": 18.7,
+      "heightCm": 66.4,
+      "scale": [
+        1.46,
+        1.46,
+        1.46
+      ],
+      "sourceFile": "televisionModern.glb",
+      "rawSizeCm": [
+        68.5,
+        45.5,
+        12.8
+      ],
+      "srcBytes": 6368,
+      "glbBytes": 3704,
+      "minPsnrDb": 99
+    },
+    "kenney_televisionVintage": {
+      "name": "Телевизор ламповый",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 50,
+      "depthCm": 32.9,
+      "heightCm": 32.9,
+      "scale": [
+        1.22,
+        1.22,
+        1.22
+      ],
+      "sourceFile": "televisionVintage.glb",
+      "rawSizeCm": [
+        41,
+        27,
+        27
+      ],
+      "srcBytes": 19392,
+      "glbBytes": 8684,
+      "minPsnrDb": 99
+    },
+    "kenney_speaker": {
+      "name": "Колонка напольная",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 23.3,
+      "depthCm": 23.3,
+      "heightCm": 100,
+      "scale": [
+        1.571,
+        1.571,
+        1.571
+      ],
+      "sourceFile": "speaker.glb",
+      "rawSizeCm": [
+        14.8,
+        63.6,
+        14.8
+      ],
+      "srcBytes": 15744,
+      "glbBytes": 5956,
+      "minPsnrDb": 99
+    },
+    "kenney_laptop": {
+      "name": "Ноутбук",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 34,
+      "depthCm": 30.9,
+      "heightCm": 20.8,
+      "scale": [
+        1.288,
+        1.288,
+        1.288
+      ],
+      "sourceFile": "laptop.glb",
+      "rawSizeCm": [
+        26.4,
+        16.2,
+        24
+      ],
+      "srcBytes": 5540,
+      "glbBytes": 4308,
+      "minPsnrDb": 99
+    },
+    "kenney_computerScreen": {
+      "name": "Монитор",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 55,
+      "depthCm": 14.6,
+      "heightCm": 41.2,
+      "scale": [
+        1.401,
+        1.401,
+        1.401
+      ],
+      "sourceFile": "computerScreen.glb",
+      "rawSizeCm": [
+        39.3,
+        29.4,
+        10.4
+      ],
+      "srcBytes": 6404,
+      "glbBytes": 3896,
+      "minPsnrDb": 99
+    },
+    "kenney_radio": {
+      "name": "Радиоприёмник",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 30,
+      "depthCm": 9.3,
+      "heightCm": 21.7,
+      "scale": [
+        0.952,
+        0.952,
+        0.952
+      ],
+      "sourceFile": "radio.glb",
+      "rawSizeCm": [
+        31.5,
+        22.8,
+        9.8
+      ],
+      "srcBytes": 25020,
+      "glbBytes": 8440,
+      "minPsnrDb": 99
+    },
+    "kenney_toaster": {
+      "name": "Тостер",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 28,
+      "depthCm": 14.9,
+      "heightCm": 19.4,
+      "scale": [
+        1.489,
+        1.489,
+        1.489
+      ],
+      "sourceFile": "toaster.glb",
+      "rawSizeCm": [
+        18.8,
+        13,
+        10
+      ],
+      "srcBytes": 14924,
+      "glbBytes": 5684,
+      "minPsnrDb": 99
+    },
+    "kenney_kitchenMicrowave": {
+      "name": "Микроволновая печь",
+      "category": "Бытовая техника",
+      "roomTypes": [
+        "kitchen",
+        "kitchenLiving"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 45,
+      "depthCm": 35.7,
+      "heightCm": 27.9,
+      "scale": [
+        1.552,
+        1.552,
+        1.552
+      ],
+      "sourceFile": "kitchenMicrowave.glb",
+      "rawSizeCm": [
+        29,
+        18,
+        23
+      ],
+      "srcBytes": 11248,
+      "glbBytes": 8676,
+      "minPsnrDb": 99
+    },
+    "kenney_lampSquareFloor": {
+      "name": "Торшер квадратный",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 20.9,
+      "depthCm": 20.9,
+      "heightCm": 150,
+      "scale": [
+        1.744,
+        1.744,
+        1.744
+      ],
+      "sourceFile": "lampSquareFloor.glb",
+      "rawSizeCm": [
+        12,
+        86,
+        12
+      ],
+      "srcBytes": 5624,
+      "glbBytes": 3580,
+      "minPsnrDb": 99
+    },
+    "kenney_lampRoundTable": {
+      "name": "Настольная лампа круглая",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 20.3,
+      "depthCm": 23.5,
+      "heightCm": 42,
+      "scale": [
+        1.337,
+        1.337,
+        1.337
+      ],
+      "sourceFile": "lampRoundTable.glb",
+      "rawSizeCm": [
+        15.2,
+        31.4,
+        17.6
+      ],
+      "srcBytes": 6604,
+      "glbBytes": 3860,
+      "minPsnrDb": 99
+    },
+    "kenney_lampSquareTable": {
+      "name": "Настольная лампа квадратная",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom"
+      ],
+      "mount": "surface",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 15.7,
+      "depthCm": 15.7,
+      "heightCm": 38,
+      "scale": [
+        1.31,
+        1.31,
+        1.31
+      ],
+      "sourceFile": "lampSquareTable.glb",
+      "rawSizeCm": [
+        12,
+        29,
+        12
+      ],
+      "srcBytes": 5624,
+      "glbBytes": 3604,
+      "minPsnrDb": 99
+    },
+    "kenney_lampWall": {
+      "name": "Бра настенное",
+      "category": "Освещение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "wall",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 24,
+      "depthCm": 15.9,
+      "heightCm": 9.8,
+      "scale": [
+        1.059,
+        1.059,
+        1.059
+      ],
+      "sourceFile": "lampWall.glb",
+      "rawSizeCm": [
+        22.7,
+        9.3,
+        15
+      ],
+      "srcBytes": 4828,
+      "glbBytes": 3752,
+      "minPsnrDb": 99
+    },
+    "kenney_lampSquareCeiling": {
+      "name": "Плафон потолочный",
+      "category": "Люстры",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "hallway"
+      ],
+      "mount": "ceiling",
+      "source": "kenney",
+      "url": "https://kenney.nl/assets/furniture-kit",
+      "authors": [
+        "Kenney"
+      ],
+      "license": "CC0 1.0",
+      "retrievedAt": "2026-11-15",
+      "widthCm": 30,
+      "depthCm": 30,
+      "heightCm": 57.5,
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "sourceFile": "lampSquareCeiling.glb",
+      "rawSizeCm": [
+        12,
+        23,
+        12
+      ],
+      "srcBytes": 5628,
+      "glbBytes": 3652,
+      "minPsnrDb": 99
+    },
+    "own_chandelier_classic": {
+      "name": "Люстра классическая",
+      "category": "Люстры",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "ceiling",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 45.2,
+      "depthCm": 42,
+      "heightCm": 71,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_chandelier_classic.glb",
+      "srcBytes": 222708,
+      "glbBytes": 64864,
+      "minPsnrDb": 99
+    },
+    "own_chandelier_round": {
+      "name": "Люстра круглая современная",
+      "category": "Люстры",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "hallway"
+      ],
+      "mount": "ceiling",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 62.8,
+      "depthCm": 62.8,
+      "heightCm": 49,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_chandelier_round.glb",
+      "srcBytes": 95956,
+      "glbBytes": 31688,
+      "minPsnrDb": 99
+    },
+    "fm_tv_wall": {
+      "name": "ТВ-стенка подвесная",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving"
+      ],
+      "mount": "wall",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/storage/tv-stand/a-modern-floating-wallmounted-entertainment-unit-featuring-d53vp5/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 200,
+      "depthCm": 29.6,
+      "heightCm": 175.1,
+      "scale": [
+        1.992,
+        1.992,
+        1.992
+      ],
+      "sourceFile": "fm_tv_wall/source.glb",
+      "rawSizeCm": [
+        100.4,
+        87.9,
+        14.9
+      ],
+      "srcBytes": 11225652,
+      "glbBytes": 269516,
+      "minPsnrDb": 43.6,
+      "trianglesBefore": 287645,
+      "trianglesAfter": 20000
+    },
+    "own_tv_wall": {
+      "name": "Телевизор на стену",
+      "category": "Электроника",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen"
+      ],
+      "mount": "wall",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 110,
+      "depthCm": 3.6,
+      "heightCm": 64,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_tv_wall.glb",
+      "srcBytes": 2668,
+      "glbBytes": 2484,
+      "minPsnrDb": 99
+    },
+    "own_picture": {
+      "name": "Картина",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "hallway"
+      ],
+      "mount": "wall",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 60,
+      "depthCm": 2.6,
+      "heightCm": 80,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_picture.glb",
+      "srcBytes": 4536,
+      "glbBytes": 3988,
+      "minPsnrDb": 99
+    },
+    "own_mirror": {
+      "name": "Зеркало настенное",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway",
+        "bathroom",
+        "combinedBathroom",
+        "toilet"
+      ],
+      "mount": "wall",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 50,
+      "depthCm": 3.2,
+      "heightCm": 120,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_mirror.glb",
+      "srcBytes": 2636,
+      "glbBytes": 2472,
+      "minPsnrDb": 99
+    },
+    "own_shelf_wall": {
+      "name": "Полка настенная",
+      "category": "Хранение",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "hallway",
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "wall",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 80,
+      "depthCm": 20,
+      "heightCm": 15,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_shelf_wall.glb",
+      "srcBytes": 5800,
+      "glbBytes": 3496,
+      "minPsnrDb": 99
+    },
+    "own_clock_wall": {
+      "name": "Часы настенные",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "hallway"
+      ],
+      "mount": "wall",
+      "source": "own",
+      "url": "scripts/catalog/make-lights.mjs (собственная модель проекта)",
+      "authors": [
+        "Проект (собственная модель)"
+      ],
+      "license": "Собственная работа проекта",
+      "retrievedAt": "2026-11-19",
+      "attribution": "Не требуется",
+      "widthCm": 32,
+      "depthCm": 4.8,
+      "heightCm": 32,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "sourceFile": "own/own_clock_wall.glb",
+      "srcBytes": 26676,
+      "glbBytes": 8784,
+      "minPsnrDb": 99
+    },
+    "fm_planter_fluted": {
+      "name": "Кашпо рифлёное",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/decor/planter/a-large-offwhite-planter-with-a-textured-qc84ld/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 45,
+      "depthCm": 44.3,
+      "heightCm": 43.7,
+      "scale": [
+        0.448,
+        0.448,
+        0.448
+      ],
+      "sourceFile": "fm_planter_fluted/source.glb",
+      "rawSizeCm": [
+        100.3,
+        97.4,
+        99.1
+      ],
+      "srcBytes": 14423464,
+      "glbBytes": 409924,
+      "minPsnrDb": 40.8,
+      "trianglesBefore": 299552,
+      "trianglesAfter": 20000
+    },
+    "fm_plant_peperomia": {
+      "name": "Пеперомия в керамическом горшке",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "kitchen",
+        "bathroom",
+        "combinedBathroom"
+      ],
+      "mount": "surface",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/decor/plant/a-small-potted-plant-likely-a-peperomia-ezhiyc/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 26.7,
+      "depthCm": 26.9,
+      "heightCm": 35,
+      "scale": [
+        0.349,
+        0.349,
+        0.349
+      ],
+      "sourceFile": "fm_plant_peperomia/source.glb",
+      "rawSizeCm": [
+        77.3,
+        100.1,
+        77.4
+      ],
+      "srcBytes": 41853436,
+      "glbBytes": 1976788,
+      "minPsnrDb": 35.7,
+      "trianglesBefore": 283115,
+      "trianglesAfter": 77344
+    },
+    "fm_basket_seagrass": {
+      "name": "Корзина плетёная",
+      "category": "Декор",
+      "roomTypes": [
+        "living",
+        "kitchenLiving",
+        "bedroom",
+        "bathroom",
+        "combinedBathroom",
+        "hallway"
+      ],
+      "mount": "floor",
+      "source": "furnimesh",
+      "url": "https://furnimesh.com/library/decor/basket/a-rectangular-woven-basket-with-two-loop-ek94ik/",
+      "authors": [
+        "FurniMesh (ИИ-генерация по фото пользователя, автор не указан)"
+      ],
+      "license": "FurniMesh: бесплатно, коммерческое использование (не CC0)",
+      "retrievedAt": "2026-11-16",
+      "attribution": "Не требуется (по заявлению FurniMesh)",
+      "widthCm": 39.8,
+      "depthCm": 38.7,
+      "heightCm": 28.6,
+      "scale": [
+        0.401,
+        0.401,
+        0.401
+      ],
+      "sourceFile": "fm_basket_seagrass/source.glb",
+      "rawSizeCm": [
+        99.8,
+        71.7,
+        96.7
+      ],
+      "srcBytes": 22128916,
+      "glbBytes": 2211988,
+      "minPsnrDb": 37.6,
+      "trianglesBefore": 293849,
+      "trianglesAfter": 99152
+    }
+  }
+}

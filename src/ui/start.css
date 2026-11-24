@@ -1,0 +1,73 @@
+/* Главное меню (этапы 29–30): чёрно-белое, поэтому цвета заданы здесь и не зависят от токенов темы. */
+.start { --bg: #1b1b1b; --bg2: #151515; --card: #f2f2f2; position: relative; min-height: 100%; height: 100%; overflow: auto; background: var(--bg); color: #f4f4f4; font-weight: 300; transition: background-color 1.4s ease; }
+.start.is-night { --bg: #0e0e0f; --bg2: #0a0a0b; --card: #101011; }
+.start::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, var(--bg) 0 160px, var(--bg2) 160px 162px); transition: background .6s; }
+.start-strip { position: absolute; right: 0; top: 0; bottom: 0; width: min(36%, 460px); background: #000; }
+.start-plant { position: absolute; right: 0; bottom: 0; width: min(36%, 460px); color: #1a1a1a; opacity: .9; pointer-events: none; }
+
+.start-card { position: absolute; left: 0; top: 8vh; width: 62%; height: 84vh; min-height: 420px; background: var(--card); box-shadow: 0 24px 48px rgba(0, 0, 0, .55); display: flex; flex-direction: column; z-index: 1; transition: background-color 1.4s ease; animation: start-card-in .9s cubic-bezier(.2, .7, .2, 1) both; }
+.start-view { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+.start-fallbackbox { position: absolute; inset: 0; transition: opacity .8s ease; }
+.start-fallbackbox.is-hidden { opacity: 0; pointer-events: none; }
+.start-fallback { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
+/* Живая сцена и шнур: слой шнура лежит поверх холста и привязан к плафону пересчётом координат каждый кадр. */
+.start-stage { position: absolute; inset: 0; }
+.start-stage canvas { display: block; width: 100% !important; height: 100% !important; }
+.start-rope { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.start-rope path { fill: none; stroke: #151515; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; transition: stroke 1s; }
+.start-bead { position: absolute; left: -8px; top: -3px; width: 16px; height: 30px; border-radius: 999px; background: #151515; transform-origin: 8px 3px; pointer-events: none; transition: background-color 1s; box-shadow: 0 2px 6px rgba(0, 0, 0, .35); }
+.start-grab { position: absolute; left: -24px; top: -14px; width: 48px; height: 56px; border: 0; background: transparent; border-radius: 8px; cursor: grab; touch-action: none; padding: 0; -webkit-tap-highlight-color: transparent; z-index: 3; }
+.start-grab.is-held { cursor: grabbing; }
+.start-grab:focus-visible { outline: 2px solid #777; outline-offset: 0; }
+.start-hint { position: absolute; left: 0; top: 0; width: 150px; font-size: 12px; line-height: 1.35; color: #333; pointer-events: none; transition: opacity .6s, color 1s; }
+.start-hint.is-quiet { opacity: 0; }
+.start-stage.is-night .start-rope path { stroke: #dcdcdc; }
+.start-stage.is-night .start-bead { background: #e8e8e8; }
+.start-stage.is-night .start-hint { color: #cfcfcf; }
+.start-stage[data-ready='0'] .start-bead, .start-stage[data-ready='0'] .start-rope, .start-stage[data-ready='0'] .start-hint, .start-stage[data-ready='0'] .start-grab { opacity: 0; pointer-events: none; }
+
+/* Колонка текста по центру карточки сцены; заголовок — антиква Cormorant Garamond, текст и кнопки — Manrope. */
+.start-text { position: absolute; right: max(32px, 3.4vw); top: 50%; transform: translateY(-50%); width: min(30%, 380px); min-width: 280px; z-index: 2; font-family: 'Manrope Variable', 'Segoe UI', system-ui, sans-serif; }
+.start-statement { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; font-size: clamp(40px, 3.7vw, 62px); line-height: .98; font-weight: 300; margin: 0 0 30px; letter-spacing: -.005em; color: #f6f4f0; }
+.start-statement span { display: block; }
+.start-statement em { font-style: italic; font-weight: 500; letter-spacing: 0; }
+.start-lead { font-size: 14px; line-height: 1.75; font-weight: 300; color: #b8b6b2; margin: 0 0 34px; text-wrap: pretty; }
+.start-btn { display: flex; align-items: center; width: 100%; box-sizing: border-box; text-align: left; margin: 0 0 12px; padding: 15px 20px; background: transparent; color: #f4f4f4; border: 1px solid #4a4a4a; border-radius: 0; font: inherit; font-size: 13.5px; font-weight: 400; letter-spacing: .04em; cursor: pointer; transition: background-color .25s, border-color .25s, color .25s, padding-left .25s; }
+.start-btn:hover, .start-btn:focus-visible { border-color: #fff; background: #101010; outline: none; padding-left: 24px; }
+.start-btn:focus-visible { box-shadow: 0 0 0 2px #fff; }
+.start-btn small { display: block; font-size: 12px; color: #8d8d8d; margin-top: 2px; }
+.start-btn.main { background: #f4f2ee; color: #0a0a0a; border-color: #f4f2ee; font-weight: 600; }
+.start-btn.main small { color: #555; }
+.start-btn.main:hover, .start-btn.main:focus-visible { background: #fff; }
+.start-note { font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-size: 16px; letter-spacing: .01em; color: #8e8c88; margin: 20px 0 0; }
+.start-error { color: #ff9b9b; font-size: 13px; margin: 8px 0 0; }
+.start-confirm { border: 1px solid #555; padding: 14px; margin: 0 0 10px; font-size: 13px; line-height: 1.5; }
+.start-confirm .row { display: flex; gap: 8px; margin-top: 12px; }
+.start-confirm .start-btn { margin: 0; justify-content: center; padding: 10px; }
+
+@keyframes start-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes start-card-in { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
+.start-reveal { animation: start-in .8s cubic-bezier(.2, .7, .2, 1) both; animation-delay: var(--d, 0s); }
+.start-loading { position: absolute; left: 50%; bottom: 28px; transform: translateX(-50%); display: flex; align-items: center; gap: 12px; padding: 10px 18px; border-radius: 999px; background: rgba(16, 16, 17, .78); color: #f4f4f4; font-size: 13px; letter-spacing: .01em; backdrop-filter: blur(6px); pointer-events: none; z-index: 5; transition: opacity .6s ease; white-space: nowrap; max-width: calc(100% - 32px); }
+.start-loading.is-hidden { opacity: 0; }
+.start-loading-bulb { flex: none; width: 12px; height: 12px; border-radius: 50%; background: #ffd9a0; box-shadow: 0 0 10px 2px rgba(255, 217, 160, .7); animation: start-bulb 1.3s ease-in-out infinite; }
+@keyframes start-bulb { 0%, 100% { opacity: .35; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.1); } }
+@media (max-width: 600px) { .start-loading { white-space: normal; text-align: center; } }
+@media (prefers-reduced-motion: reduce) {
+  .start-loading-bulb { animation: none; }
+  .start-loading { transition: none; }
+  .start-reveal, .start-card { animation: none; }
+  .start, .start-card, .start-time, .start-btn, .start-fallbackbox { transition: none; }
+}
+
+@media (max-width: 1100px) {
+  .start-card { width: 58%; }
+  .start-text { min-width: 260px; width: 34%; }
+}
+@media (max-width: 900px) {
+  .start-strip, .start-plant { display: none; }
+  .start-card, .start-text { position: relative; left: auto; right: auto; top: auto; width: auto; min-width: 0; transform: none; }
+  .start-card { margin: 0; height: 62vh; min-height: 360px; }
+  .start-text { margin: 28px 20px 40px; }
+}

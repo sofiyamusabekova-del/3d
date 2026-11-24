@@ -1,0 +1,41 @@
+﻿@import './ui/tokens.css';
+
+html, body, #root { height: 100%; margin: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--text-md);
+  line-height: var(--leading);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+h1, h2, h3 { font-weight: var(--weight-strong); line-height: 1.25; letter-spacing: -0.005em; }
+b, strong { font-weight: var(--weight-strong); }
+::selection { background: var(--accent-soft); color: var(--text); }
+
+/* Состояния управления: общие для всех кнопок и полей (компоненты не дублируют их в стилях). */
+button, input, select, textarea { font-family: inherit; }
+button { transition: filter var(--ease), transform var(--ease), border-color var(--ease), background-color var(--ease); }
+button:hover:not(:disabled) { filter: brightness(1.18); }
+button:active:not(:disabled) { transform: translateY(1px); filter: brightness(1.05); }
+button:disabled { cursor: not-allowed; }
+button[aria-pressed='true'] { border-color: var(--accent); }
+nav button[aria-current='step'] { background: var(--accent-soft) !important; border-color: var(--accent) !important; font-weight: var(--weight-strong); }
+
+/* Фокус клавиатуры виден всегда и одинаково; мышь его не вызывает. */
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: var(--radius); }
+input:focus-visible, select:focus-visible, textarea:focus-visible { border-color: var(--focus) !important; outline-offset: 0; }
+input::placeholder, textarea::placeholder { color: var(--text-muted); opacity: 0.85; }
+input[type='range'], input[type='checkbox'], input[type='radio'] { accent-color: var(--accent); }
+
+/* Прокрутка в тон темы. */
+* { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 6px; border: 2px solid var(--surface); }
+*::-webkit-scrollbar-track { background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}

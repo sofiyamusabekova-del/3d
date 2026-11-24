@@ -1,0 +1,17 @@
+node_modules
+dist
+.vite
+*.log
+.env
+test-results
+playwright-report
+
+.e2e.log
+.tsc.log
+.measure.log
+
+# Исходники моделей для конвейера каталога (scripts/catalog), в git не хранятся
+assets-src/
+
+docs/reports/
+.claude/settings.local.json

@@ -1,0 +1,66 @@
+﻿/*
+ * Система оформления (SPEC D-13): единая тёмная тема. Все цвета, размеры текста, радиусы, тени и отступы заданы
+ * переменными; компоненты берут значения отсюда, а не пишут свои. Контраст текста не ниже AA (WCAG 2.x, 4,5:1),
+ * графики и границ управления не ниже 3:1: проверяет tests/unit/theme.test.ts по этому файлу и tests/e2e/theme.spec.ts по факту отрисовки.
+ */
+:root {
+  color-scheme: dark;
+
+  /* Стиль главного меню (этап 30.9): тёплая чёрно-белая гамма, светлый акцент, прямые углы. */
+  /* Слои: фон страницы → панель → карточка → приподнятый элемент. */
+  --bg: #0b0b0b;
+  --surface: #121212;
+  --surface-2: #181818;
+  --surface-3: #222222;
+
+  /* Границы: обычная для разделения, сильная для границ полей и кнопок (не ниже 3:1 к слою). */
+  --border: #2a2a2a;
+  --border-strong: #6a6a6a;
+
+  /* Текст. */
+  --text: #f2f0ec;
+  --text-muted: #a8a6a2;
+
+  /* Акцент и состояния: акцент — тёплый белый, как основная кнопка меню. */
+  --accent: #f4f2ee;
+  --accent-strong: #ffffff;
+  --accent-ink: #0a0a0a;
+  --accent-soft: rgba(244, 242, 238, 0.08);
+  --focus: #f4f2ee;
+  --danger: #ff8a80;
+  --ok: #8fd6a8;
+  --warning: #e8c27a;
+
+  /* План (2D): стены светлее фона, мебель отличима от пола, подписи читаются. */
+  --plan-bg: #121212;
+  --plan-room: #1c1c1c;
+  --plan-wall: #8a8782;
+  --plan-furniture: #2c2c2c;
+  --plan-furniture-edge: #a09d98;
+
+  /* Типографика: шкала размеров, межстрочный интервал, начертания. Заголовки — антиква, как в меню. */
+  --font: 'Manrope Variable', 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 22px;
+  --leading: 1.45;
+  --weight-regular: 400;
+  --weight-strong: 600;
+
+  /* Форма и ритм. */
+  --radius: 0px;
+  --radius-lg: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+
+  /* Глубина и переходы. */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.22);
+  --shadow-2: 0 2px 4px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.35);
+  --ease: 120ms ease-out;
+}

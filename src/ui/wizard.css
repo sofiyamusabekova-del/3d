@@ -1,0 +1,97 @@
+/*
+ * Мастер в стиле главного меню: чёрная шапка, антиква Cormorant Garamond в заголовках, Manrope в тексте, прямые углы,
+ * тонкие границы и светлая основная кнопка. Контраст текста к чёрному фону не ниже AA (проверяет tests/e2e/theme.spec.ts).
+ */
+.wz { display: flex; flex-direction: column; height: 100%; background: #0b0b0b; font-family: 'Manrope Variable', 'Segoe UI', system-ui, sans-serif; }
+.wz-main { flex: 1; min-height: 0; overflow: auto; padding: var(--space-3); }
+.wz-main.is-flush { padding: 0; display: flex; flex-direction: column; }
+
+/* Шапка */
+.wz-nav { display: flex; align-items: center; gap: 2px; padding: 0 24px; min-height: 58px; background: #000; border-bottom: 1px solid #1f1f1f; flex-shrink: 0; flex-wrap: wrap; }
+.wz-brand { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 21px; font-weight: 300; color: #f4f2ee; margin-right: 28px; white-space: nowrap; letter-spacing: .005em; }
+.wz-brand em { font-style: italic; font-weight: 500; }
+.wz-step { background: transparent; border: 0; border-bottom: 1px solid transparent; border-radius: 0; color: #a8a6a2; font: inherit; font-size: 13px; letter-spacing: .04em; padding: 10px 12px 9px; cursor: pointer; transition: color .2s, border-color .2s; }
+.wz-step:hover:not(:disabled) { color: #fff; }
+.wz-step:disabled { opacity: 1; color: #6a6865; cursor: default; }
+.wz-nav .wz-step[aria-current='step'] { background: transparent !important; color: #fff; border-color: #f4f2ee !important; font-weight: 600; }
+.wz-tool { background: transparent; color: #e8e6e2; border: 1px solid #474747; border-radius: 0; padding: 7px 14px; font: inherit; font-size: 12.5px; letter-spacing: .03em; cursor: pointer; transition: border-color .2s, background-color .2s; }
+.wz-tool:hover:not(:disabled) { border-color: #f4f2ee; background: #111; }
+.wz-status { font-size: 12px; color: #a3a19d; margin-right: 6px; }
+
+/* Заголовки остальных шагов: крупный — антиква, разделы панелей — подписи капителью, как в меню. */
+.wz-main h1:not(.pm-title) { font-family: var(--font-display); font-weight: 300 !important; font-size: clamp(28px, 2.3vw, 38px) !important; line-height: 1.08; letter-spacing: -.005em; color: #f6f4f0; }
+.wz-main h2 { font-family: var(--font); font-size: 11.5px !important; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--text-muted); }
+.wz-main article h2 { font-family: var(--font-display); font-size: 26px !important; font-weight: 500; font-style: italic; letter-spacing: 0; text-transform: none; color: var(--text); }
+.wz-main article h2 span { font-family: var(--font); font-style: normal; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; font-size: 11px !important; }
+.wz-main button { letter-spacing: .03em; }
+
+/* Панель 3D на весь экран: без рамки, на фоне приложения, холст занимает весь экран. */
+.scene-panel:fullscreen { background: var(--bg) !important; border: 0 !important; box-shadow: none !important; width: 100vw; height: 100vh; }
+.scene-panel:fullscreen::backdrop { background: var(--bg); }
+
+/* Шаг «Параметры»: слева снимок комнаты, справа чёрная колонка с формой (как в главном меню). */
+.pm { flex: 1; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(400px, 1fr); min-height: 560px; }
+.pm-visual { position: relative; background: #151515 url('/start/room-day.jpg') center / cover no-repeat; }
+.pm-visual::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, .55)); }
+.pm-form { background: #000; display: flex; align-items: center; padding: 48px clamp(28px, 4vw, 64px); }
+.pm-inner { width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 30px; animation: pm-in .7s cubic-bezier(.2, .7, .2, 1) both; }
+.pm-eyebrow { font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase; color: #a3a19d; margin: 0 0 14px; }
+.pm-title { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif; font-size: clamp(38px, 3.2vw, 54px); line-height: 1; font-weight: 300; color: #f6f4f0; margin: 0; letter-spacing: -.005em; }
+.pm-title span { display: block; }
+.pm-title em { font-style: italic; font-weight: 500; }
+.pm-lead { font-size: 14px; line-height: 1.75; font-weight: 300; color: #b8b6b2; margin: 16px 0 0; }
+.pm-label { display: block; font-size: 11.5px; letter-spacing: .16em; text-transform: uppercase; color: #a3a19d; margin: 0 0 12px; padding: 0; }
+.pm-help { font-size: 12.5px; line-height: 1.65; color: #a3a19d; margin: 0; }
+.pm-error { font-size: 13px; color: var(--danger); margin: 0; }
+
+.pm-fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.pm-rooms { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.pm-room { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 14px 16px 13px; border: 1px solid #3f3f3f; color: #f4f2ee; cursor: pointer; transition: border-color .2s, background-color .25s, color .25s; }
+.pm-room:hover { border-color: #bdbdbd; }
+.pm-room input { appearance: none; -webkit-appearance: none; position: absolute; top: 12px; right: 12px; width: 11px; height: 11px; margin: 0; border: 1px solid #8a8a8a; border-radius: 50%; background: transparent; cursor: pointer; }
+.pm-room .num { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 40px; line-height: 1; font-weight: 300; }
+.pm-room .cap { font-size: 11.5px; letter-spacing: .06em; color: #a8a6a2; }
+.pm-room.is-on { background: #f4f2ee; border-color: #f4f2ee; color: #0a0a0a; }
+.pm-room.is-on .cap { color: #4a4845; }
+.pm-room.is-on input { background: #0a0a0a; border-color: #0a0a0a; }
+
+.pm-area { display: flex; align-items: baseline; gap: 10px; border-bottom: 1px solid #4a4a4a; transition: border-color .2s; }
+.pm-area:focus-within { border-color: #f4f2ee; }
+.pm-area.is-bad { border-color: var(--danger); }
+.pm-input { flex: 1; min-width: 0; width: 100%; background: transparent; border: 0; color: #f6f4f0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 36px; font-weight: 300; padding: 2px 0 8px; }
+.pm-input::placeholder { color: #6f6d69; font-style: italic; }
+.pm-input:focus-visible { outline: none; box-shadow: 0 1px 0 0 #f4f2ee; }
+.pm-unit { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; color: #a3a19d; }
+.pm-notes { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
+
+.pm-submit { display: flex; align-items: center; justify-content: space-between; width: 100%; box-sizing: border-box; padding: 17px 22px; background: #f4f2ee; color: #0a0a0a; border: 0; border-radius: 0; font: inherit; font-size: 13.5px; font-weight: 600; letter-spacing: .04em; cursor: pointer; transition: background-color .25s, padding .25s; }
+.pm-submit:hover { background: #fff; padding-left: 28px; }
+.pm-submit .arrow { font-weight: 300; font-size: 18px; transition: transform .25s; }
+.pm-submit:hover .arrow { transform: translateX(4px); }
+
+/* Только сдвиг, без прозрачности: текст с первого кадра читается с полным контрастом. */
+@keyframes pm-in { from { transform: translateY(12px); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .pm-inner { animation: none; } .pm-submit, .pm-room, .wz-step { transition: none; } }
+/* Невысокие окна (ноутбук 1280×720): форма помещается без прокрутки. */
+@media (max-height: 820px) and (min-width: 901px) {
+  .pm { min-height: 0; }
+  .pm-form { padding-top: 24px; padding-bottom: 24px; }
+  .pm-inner { gap: 20px; }
+  .pm-eyebrow { margin-bottom: 10px; }
+  .pm-title { font-size: clamp(34px, 2.8vw, 46px); }
+  .pm-lead { margin-top: 10px; line-height: 1.6; }
+  .pm-room { padding: 10px 14px 9px; }
+  .pm-room .num { font-size: 32px; }
+  .pm-input { font-size: 30px; }
+  .pm-notes { margin-top: 8px; gap: 4px; }
+  .pm-help { line-height: 1.5; }
+  .pm-submit { padding: 14px 22px; }
+}
+@media (max-width: 900px) {
+  .pm { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .pm-form, .pm-inner { min-width: 0; }
+  .pm-visual { height: 220px; }
+  .pm-visual::after { background: linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .6)); }
+  .pm-form { padding: 32px 20px 40px; }
+  .wz-brand { display: none; }
+}
